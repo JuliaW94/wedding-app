@@ -1,9 +1,9 @@
 {
-  "name": "project-name",
+  "name": "react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "author": "Your Name",
+  "author": "Julia Weber",
   "license": "MIT",
   "scripts": {
     "start": "vite --open",
@@ -18,13 +18,17 @@
     "@fontsource/roboto": "^5.0.8",
     "@mui/icons-material": "^5.14.7",
     "@mui/material": "^5.14.7",
+    "@react-keycloak/web": "^3.4.0",
     "@reduxjs/toolkit": "^1.9.5",
+    "@tanstack/react-query": "^5.90.12",
+    "@tanstack/react-router": "1.141.8",
     "axios": "^1.5.0",
+    "keycloak-js": "^26.2.2",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^8.1.2",
-    "react-router-dom": "^6.15.0"
+    "react-material-ui-carousel": "^3.4.2",
+    "react-redux": "^8.1.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.21",
