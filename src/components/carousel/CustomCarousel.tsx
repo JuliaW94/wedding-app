@@ -1,4 +1,4 @@
-import {BannerProps, DefaultSettingsT, Item} from "./carousel.types.tsx";
+import {BannerProps, DefaultSettingsT, Item} from "./carousel.types.ts";
 import { Card, CardContent, CardMedia, Grid, Typography} from "@mui/material";
 import cherryflowerone from "../../../public/Kirschblueten1.png"
 import cherryflowertwo from "../../../public/Kirschblueten2.png"
@@ -15,14 +15,6 @@ export const CustomCarousel = () => {
             <Carousel
                 className="Example"
                 {...DefaultSettingsT}
-                // next={(now: any, previous:any) => console.log(`Next User Callback: Now displaying child ${now}. Previously displayed child ${previous}`)}
-                // prev={(now, previous) => console.log(`Prev User Callback: Now displaying child ${now}. Previously displayed child ${previous}`)}
-                // onChange={(now, previous) => console.log(`OnChange User Callback: Now displaying child ${now}. Previously displayed child ${previous}`)}
-
-                // navButtonsProps={{style: {backgroundColor: 'cornflowerblue', borderRadius: 0}}}
-                // navButtonsWrapperProps={{style: {bottom: '0', top: 'unset', }}}
-                // indicatorContainerProps={{style: {margin: "20px"}}}
-                // NextIcon='next'
             >
                 {
                     items.map((item, index) => {
@@ -43,7 +35,7 @@ const Banner = (props: BannerProps) => {
     const content = (
         <Grid item xs={4} key="content">
             <CardContent className="Content">
-                <Typography className="Caption" variant={"h3"}>
+                <Typography className="Caption" variant={"h2"}>
                     {props.item.Caption}
                 </Typography>
             </CardContent>
@@ -104,7 +96,7 @@ const items: Item[] = [
     },
     {
         Name: "Second",
-        Caption: "Hier findet ihr alle Informationen",
+        Caption: "Hier findet ihr alle Infos",
         contentPosition: "middle",
         Items: [
             {

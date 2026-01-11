@@ -29,8 +29,8 @@ export interface SettingsT {
 export const DefaultSettingsT: SettingsT = {
     autoPlay: true,
     animation: "slide",
-    indicators: false,
-    duration: 1500,
+    indicators: true,
+    duration: 2500,
     navButtonsAlwaysVisible: false,
     navButtonsAlwaysInvisible: true,
     cycleNavigation: true,

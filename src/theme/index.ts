@@ -45,20 +45,20 @@ export const weddingTheme = createTheme({
             lineHeight: 1.1,
         },
         h2: {
-            fontSize: '3.2rem',
+            fontSize: '3.5rem',
             fontWeight: 300,
             letterSpacing: '0.16em',
             textTransform: 'uppercase',
         },
         h3: {
-            fontSize: '2rem',
+            fontSize: '3rem',
             fontWeight: 400,
             letterSpacing: '0.12em',
         },
 
         body1: {
-            fontSize: '1.05rem',
-            lineHeight: 1.9,
+            fontSize: '1.7rem',
+            lineHeight: 1.5,
             fontWeight: 400,
         },
         body2: {
