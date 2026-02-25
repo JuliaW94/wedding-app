@@ -26,22 +26,20 @@ export default function Vaccination() {
             </Typography>
 
             <Typography variant="body1">
-                Für die Einreise nach Ghana ist eine gültige
-                Gelbfieberimpfung verpflichtend. Ohne diesen
-                Impfnachweis kann weder das Visum beantragt noch
-                die Einreise erfolgen.
+                Wenn man nach Ghana reist können unterschiedliche Impfungen hilfreich sein.
+                Es ist jedoch nur die Gelbfieberimpfung verpflichtend. Bitte organisiert diese rechtzeitig (mindestens 6 Monate vor Reise)
+                um Komplikationen beim Visum zu vermeiden.
                 <br />
                 <br />
-                Zusätzlich empfiehlt das Auswärtige Amt weitere
-                Impfungen, um euch bestmöglich vor
-                Infektionskrankheiten zu schützen. Wenn ihr alle
+                Hier sind noch ein paar weitere Imfungen aufgelistet, die das auswärtige Amt empfielt.
+                Wenn ihr alle
                 empfohlenen Impfungen durchführen möchtet,
                 solltet ihr insgesamt etwa sechs Monate
                 einplanen.
                 <br />
                 <br />
                 Die Kosten für Reiseimpfungen werden in der Regel
-                von den gesetzlichen Krankenkassen übernommen.
+                von den gesetzlichen Krankenkassen übernommen, dass kann sich je nach Krankenkasse unterscheiden.
             </Typography>
 
             <Typography sx={{ mt: 2 }}>
@@ -76,10 +74,18 @@ export default function Vaccination() {
                 </ListItem>
                 <ListItem sx={{ display: 'list-item' }}>
                     <Link
-                        href="https://www.kreis-stormarn.de/go/impfen"
+                        href="https://praxis-sternfeldt.de/vorsorge/"
                         target="_blank"
                     >
-                        Gesundheitsamt Kreis Stormarn (Bad Oldesloe, nicht alle Impfungen möglich)
+                        Praxis Dr. med. Regina Sternfeld (Ahrensburg)
+                    </Link>
+                </ListItem>
+                <ListItem sx={{ display: 'list-item' }}>
+                    <Link
+                        href="https://www.uksh.de/blutspende/Impfungen+am+UKSH/Reisemedizinische+Impfberatung/Reisemedizin+L%C3%BCbeck.html"
+                        target="_blank"
+                    >
+                        Reisemedizinische Beratung am UKSH (Lübeck / Kiel)
                     </Link>
                 </ListItem>
             </List>
@@ -134,7 +140,7 @@ export default function Vaccination() {
             <br/>
 
             {/* MODAL */}
-            <Modal open={!!selected} onClose={() => setSelected(null)}>
+            <Modal open={!!selected} onClose={() => setSelected(null)} className={"modalStyle1"}>
                 <Box
                     sx={{
                         position: 'absolute',

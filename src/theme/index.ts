@@ -43,17 +43,30 @@ export const weddingTheme = createTheme({
             letterSpacing: '0.18em',
             textTransform: 'uppercase',
             lineHeight: 1.1,
+            '@media (max-width:600px)': {
+                fontSize: '2.5rem',
+                letterSpacing: '0.08em',
+            },
         },
         h2: {
             fontSize: '3.5rem',
             fontWeight: 300,
             letterSpacing: '0.16em',
             textTransform: 'uppercase',
+            '@media (max-width:600px)': {
+                fontSize: '2.2rem',
+                letterSpacing: '0.08em',
+            },
         },
         h3: {
             fontSize: '3rem',
             fontWeight: 400,
             letterSpacing: '0.12em',
+            '@media (max-width:600px)': {
+                fontSize: '2rem',
+                letterSpacing: '0.08em',
+            },
+
         },
 
         body1: {

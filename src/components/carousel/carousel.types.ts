@@ -30,7 +30,7 @@ export const DefaultSettingsT: SettingsT = {
     autoPlay: true,
     animation: "slide",
     indicators: true,
-    duration: 2500,
+    duration: 3000,
     navButtonsAlwaysVisible: false,
     navButtonsAlwaysInvisible: true,
     cycleNavigation: true,

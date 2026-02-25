@@ -25,3 +25,12 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.modalStyle1 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  overflow: scroll;
+  height: 100%;
+  display: block;
+}
